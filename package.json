@@ -1,0 +1,39 @@
+{
+  "name": "rss-mailer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "husky": "husky",
+    "start": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkaksl/rss-mailer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dkaksl/rss-mailer/issues"
+  },
+  "homepage": "https://github.com/dkaksl/rss-mailer#readme",
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.3",
+    "@types/node-fetch": "^2.6.3",
+    "husky": "^8.0.3",
+    "prettier": "^2.8.7",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "none"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.2.0",
+    "node-fetch": "^2.6.9"
+  }
+}
